@@ -10,3 +10,13 @@ Tilføjelse af kommentarspor og meta tags i filen index.html.
 Bl.a. meta beskrivelse til forsiden, samt robots meta tag - som er en del af vores produktkrav at bruge på alle html filer. 
 _________________________
 
+5/6 - 2023
+Forfatter: Maiken
+
+Opdatering af indhold på forside aka. index.html, herunder gennemsyn og oprettelse af semantisk korrekt justeret brug af tags og det's indhold. 
+Oprettelse af siden blog.html samt opdatering af indhold på siden.
+Oprettelse af siden shop.html samt opdatering af indhold på siden. 
+Oprettelse af siden opskrifter.html samt opdatering af indhold på siden. 
+Oprettelse af siden om_os.html samt opdatering af indhold på siden. 
+_________________________
+
