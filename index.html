@@ -1,20 +1,105 @@
 <!DOCTYPE html>
 <html lang="da">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Start Dokument</title>
-</head>
-<body>
-    <header>
+  <head>
+    <title>Forside</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="js/script.js"></script>
+    
+  </head>
 
-    </header>
-    <main>
+  <body>
 
-    </main>
-    <footer>
+    <section class="header">
+      <nav>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
 
-    </footer>
-</body>
+          <ul>
+            <li><a href="paths/blog.html">Blog</a></li>
+            <li><a href="paths/shop.html">Shop</a></li>
+            <li>
+              <a href="index.html"
+                ><img id="logo" src="images/logo/Logo Plum P Farve.png" alt=""
+              /></a>
+            </li>
+            <li><a href="paths/opskrifter.html">Opskrifter</a></li>
+            <li><a href="paths/om-os.html">Om os</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>H1 Test H1</h1>
+
+        <p>Paragraf med f eller ph?</p>
+        <p>Endnu en paragraph eller paragraf?</p>
+      </div>
+    </section>
+
+    <!----------------------------------------- sec1 test -------------------------------->
+
+    <section class="sec1">
+      <h1>awd</h1>
+      <p>adw</p>
+
+      <div class="row">
+        <div class="sec1-col">
+          <img src="images/" />
+
+          <p>awd</p>
+        </div>
+
+        <div class="sec1-col">
+          <img src="images/" />
+
+          <p>awd</p>
+        </div>
+
+        <div class="sec1-col">
+          <img src="images/" />
+
+          <p>awd</p>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------------------------------- sec2 test --------------------------------->
+
+    <section class="sec2">
+      <h1>sec2</h1>
+      <p>sec2</p>
+
+      <div class="row">
+        <div class="sec2-col">
+          <img src="images/" />
+          <h3>sec2</h3>
+          <p>sec2</p>
+        </div>
+        <div class="sec2-col">
+          <img src="images/" />
+          <h3>sec2</h3>
+          <p>sec2</p>
+        </div>
+        <div class="sec2-col">
+          <img src="images/" />
+          <h3>sec2</h3>
+          <p>sec2</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <h4>footer stuff</h4>
+    </section>
+
+    <script src="./js/script.js"></script>
+
+  </body>
 </html>
