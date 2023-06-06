@@ -1,7 +1,9 @@
 /*
     CSS skrevet fra bunden af gruppen "blandede Bolcher", bestående af Ella,  Ahmed, Bastian, Martin & Maiken. Al design på hjemmesiden tager udgangspunkt i vores prototype i Figma. 
 */
+
 /*Her har vi deklareret vores farveskema.*/
+
 :root{
     --baggrund: #FFFDE7;
     --tekstfarve: #272932;
@@ -9,118 +11,116 @@
     --detaljefarve: #A972F4;
     --logofarve: #5E874F;
 }
+
+  /*Her deklarere vi hvilke skrifttyper vi bruger igennem hjemmesiden*/
   
-  @font-face {
+@font-face {
     font-family: "fira_mono_bold";
     src: url(/fonts/Fira_Mono/FiraMono-Bold.ttf);
-    }
-  @font-face {
+}
+
+@font-face {
     font-family: "fira_mono_regular";
     src: url(/fonts/Fira_Mono/FiraMono-Regular.ttf);
-    }
-  @font-face {
+}
+
+@font-face {
     font-family: "fira_sans_bold";
     src: url(/fonts/Fira_Sans/FiraSans-Bold.ttf);
-    }
-  @font-face {
+ }
+
+@font-face {
     font-family: "fira_sans_regular";
     src: url(/fonts/Fira_Sans/FiraSans-Regular.ttf);
-    }
+}
 
+/*Her nulstiller vi et par "default" browser indstillinger og laver nogle basale designvalg*/
 
-  /*Her nulstiller vi et par "default" browser indstillinger*/
-* {
+*{
     margin: 0;
     padding: 0;
     font-size: 16px;
     font-family: "fira_sans_regular", sans-serif;
-  }
+}
   
   body{
-     /*  background-image: url(/images/logo/Grøn-pynte-logo-rotated.png);
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover; */
-      background-color: var(--baggrund);
-      color: var(--tekstfarve);
-      text-align: left;
-      
-  }
+    background-color: var(--baggrund);
+    color: var(--tekstfarve);
+    text-align: left;  
+}
 
-  /*Header & Navigering*/
+/*Header & Navigering*/
   
-  header {
+header {
     min-height: 3,4375rem;
     width: 100%;  
     border-radius: 5px;
-    /* background-position: center;
-    background-size: cover; */
     background-color: var(--baggrund);
     position: sticky;
     top: 0;
-  }
+}
   
-  nav {
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      text-align: center;
-  }
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
   
+nav img {
+      width: 33px;  
+}
   
-  nav img {
-      width: 33px;
-      
-  }
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
   
-  .nav-links ul li {
-      list-style: none;
-      display: inline-block;
-      padding: 8px 12px;
-      position: relative;
-  }
-  
-  .nav-links ul li a {
-      text-decoration: none;
-      font-size: 13px;
-  }
+.nav-links ul li a {
+    text-decoration: none;
+    font-size: 13px;
+}
 
-  a{
+a{
     text-decoration: none;
     color: var(--tekstfarve);
-  }
+}
   
-  .nav-links ul li::after {
-      content: '';
-      width: 0%;
-      height: 2px;
-      background: var(--detaljefarve);
-      display: block;
-      margin: auto;
-  }
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: var(--detaljefarve);
+    display: block;
+    margin: auto;
+}
   
-  .nav-links ul li:hover::after {
-      width: 100%;
-      transition: 0.5s;
-  }
+.nav-links ul li:hover::after {
+    width: 100%;
+    transition: 0.5s;
+}
 
-  /*main indhold */
-  section {
-      margin: auto;
-      /* padding-top: 3rem; */
-      padding: 2%;
-    }
+/*main indhold */
+
+section {
+    margin: auto;
+    padding: 2%;
+}
 
 h1 {
     font-family: "fira_mono_bold";
     font-size: 20px;
     padding: 2%;
 }
+
 h2{
     font-size: 18;
     font-family: "fira_mono_bold";
     padding: 2%;
 }
+
 p {
     margin: 10px 0 20px;
     padding: 2%;
@@ -189,9 +189,11 @@ form{
     margin-left: auto;
     margin-right: auto;
 }
+
 label{
     margin-bottom: 5%;
 }
+
 input{
     margin-bottom: 2%;
 }
@@ -202,8 +204,8 @@ input{
     margin-right: auto;
 }
 
+/*footer */
 
-/* footer */
 footer {
     text-align: center;
     padding: 30px 0;
@@ -214,10 +216,7 @@ footer p {
 }
  
  
-
-
-
-
+/*Her laver vi indstillinger for det responsive design.*/
 
 @media (max-width: 700px) {
            

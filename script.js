@@ -1,6 +1,5 @@
 // JavaScript skrevet fra bunden af gruppen "blandede Bolcher", bestående af Ella,  Ahmed, Bastian, Martin & Maiken. 
 
-
 // Knap kode er venligst lånt af Maiken Ø. Sørensen's eksamensprojekt på første semester.
 
 // TIL TOPPEN KNAP 
