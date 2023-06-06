@@ -20,3 +20,11 @@ Oprettelse af siden opskrifter.html samt opdatering af indhold på siden.
 Oprettelse af siden om_os.html samt opdatering af indhold på siden. 
 _________________________
 
+6/6 - 2023
+Forfatter: Maiken
+
+Optimering af SEO på hjemmesiden (alle sider).
+Opdatering af indhold på opskrifter.html & om_os.html. 
+Implementering af JavaScript. 
+Opdatering af css i hht. overstående. 
+_________________________
