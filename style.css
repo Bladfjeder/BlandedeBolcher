@@ -151,6 +151,31 @@ button{
     border-color: var(--tekstfarve);
 }
 
+.tilmeld_knap{
+    margin-left: 70%;
+    margin-right: 20%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+#topKnap{
+    grid-area: knap;
+    background-color: var(--knapfarve);
+    color: var(--tekstfarve);
+    font-size: 20px;
+    padding: 0.5em;
+    outline: none;
+    border: 0.1em solid var(--tekstfarve);
+    cursor: pointer;
+    z-index: 99;
+    bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    position: sticky;
+    display: none;
+    margin-top: 1em;
+}
+
 .indlæs{
     text-align: center;
 }
@@ -158,6 +183,25 @@ button{
 .træhylde{
   padding-bottom: 8%;
 }
+
+form{
+    width: 12rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+label{
+    margin-bottom: 5%;
+}
+input{
+    margin-bottom: 2%;
+}
+
+.billeder{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /* footer */
 footer {
