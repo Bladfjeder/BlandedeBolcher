@@ -238,6 +238,10 @@ footer p {
 /*Her laver vi indstillinger for det responsive design.*/
 
 @media (max-width: 700px) {
+    main {
+        width: 90%;
+        margin-left: 5%;
+    } 
            
 }
 
@@ -254,5 +258,18 @@ footer p {
 
 .vegetable-image{
     width: 38%;
+}
+
+.overskrift{
+    margin: 10%;
+}
+
+.lilla{
+width: 50%;
+background-color: #A972F4;
+border: 0 none;
+color: #A972F4;
+height: 6px;
+margin: auto;
 }
 
