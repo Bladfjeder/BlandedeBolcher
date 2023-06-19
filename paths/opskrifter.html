@@ -37,14 +37,15 @@
         <img id="header_hylde" src="/img/træ_1.svg" alt="Dekorativ træhylde der opdeler navigationsbaren fra hovedindholdet.">
         <nav class="subNav nav-links">
             <ul>
-                <li><a href="#"><b>Nyheder</b></a></li>
+                <li><a href="#"><b>Anbefalinger</b></a></li>
                 <li><a href="#">Bøger</a></li>
                 <li><a href="#">Alle Opskrifter</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="nyheder">
+        <img class="billeder" src="/img/plum/camilla_madside.webp" alt="Camilla plum der står i sit køkken, med en gammeldags grydesi over skulderen.">
+        <section class="anbefalinger">
             <h1>Her finder du alle de bedste opskrifter fra nogle af alle mine kogebøger</h1>
             <p>
                 Jeg er begejstret for at præsentere en samling af opskrifter fra mine kogebøger, som er fyldt med kærlighed til gode råvarer og autentisk madlavning.
@@ -69,9 +70,19 @@
             <input type="email" name="femail" id="femail"> <br> 
             <button class="tilmeld_knap">Tilmeld!</button>
         </form>
-        <img class="logo_plum" src="/img/Logo_Plum_full.svg" alt="Logo af PLUM bogstaver, med blade designet som en signatur fra Camilla Plum.">
+        <img src="/img/plum/camilla_solsikke.webp" alt="Camilla Plum i nærskud, kigger mod venstre hvor der er toppen af en solsikke.">
+        <section>
+            <h2>
+                Jeg anbefaler selvfølgelig alle mine lækre opskrifter, men hvis jeg SKULLE vælge nogle, skal du prøve disse:
+            </h2>
+            <ul class="liste" id="anbefalingsliste">
+                <li><a href=""> Risotto med asparges & citron</a></li>
+                <li><a href="">Henkogte tomater</a></li>
+                <li><a href="">Hindbærsnitter</a></li>
+            </ul>
+            <img class="banner" src="/img/CTA/banner_prøv_idag.svg" alt="Gult banner med teksten 'prøv idag!'.">
+        </section>
     </main>
-    <button onclick="tilTopFunktion()" id="topKnap" title="Gå til toppen">↑↑</button>
     <img id="footer_hylde" src="/img/træ_3.svg" alt="Dekorativ træhylde, som deler hovedindholdet fra bunden af hjemmesiden.">
     <footer>
         <p>
@@ -79,12 +90,24 @@
             Fuglebjerggaard <br>
             Alle dage <br>
             10-16
-            <br>   
-            <b>Landhandlen i KBH</b> <br>
+        </p>
+        <p>
+            Landhandlen i KBH <br>
             tirsdag - søndag <br>
             11-17
         </p>
+        <p>
+            <b>KONTAKT</b> <br>
+            kontor@fuglebjerggaard.dk <br>
+            +45 64 63 57 40 
+        </p>
+        <p>
+            <b>ADRESSE</b> <br>
+            Hemmingstrupvej 8, 3200 Helsinge <br>
+            Jærgersborggade 17, 2200 København
+        </p>
     </footer>
+    <button onclick="tilTopFunktion()" id="topKnap" title="Gå til toppen">↑↑</button>
     <script src="/script.js"></script>
 </body>
 </html>

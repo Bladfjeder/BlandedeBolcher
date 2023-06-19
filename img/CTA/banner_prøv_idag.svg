@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 740 171" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-1514,-461)">
+        <g transform="matrix(1,0,0,1,-1427,0)">
+            <g id="Prøv-idag---banner" serif:id="Prøv idag - banner" transform="matrix(1,0,0,1,2760,0)">
+                <g transform="matrix(1.19688,-0.0455674,0.0382019,1.00342,-40.6444,29.2656)">
+                    <path d="M242,486L170,486L203.014,544.938L170,608L242,608L242,486Z" style="fill:rgb(244,208,111);"/>
+                </g>
+                <g transform="matrix(-1.19701,0.0420416,-0.035246,-1.00353,1140.67,1084.59)">
+                    <path d="M264.556,486L170,486L203.014,544.938L170,608L264.556,608L264.556,486Z" style="fill:rgb(244,208,111);"/>
+                </g>
+                <path d="M841,583.626L811.399,607.841" style="fill:none;stroke:rgb(255,253,231);stroke-width:1px;"/>
+                <path d="M841,461.626L248,486L248,608L841,583.626L841,461.626Z" style="fill:rgb(244,208,111);stroke:rgb(255,253,231);stroke-width:1px;"/>
+                <path d="M248,608L272.196,628.318" style="fill:none;stroke:rgb(255,253,231);stroke-width:1px;"/>
+                <g transform="matrix(0.999336,-0.0364231,0.0364231,0.999336,-57.6332,18.252)">
+                    <g transform="matrix(75.6069,0,0,75.6069,867.688,562)">
+                    </g>
+                    <text x="309.709px" y="562px" style="font-family:'FiraMono-Bold', 'Fira Mono', monospace;font-weight:700;font-size:75.607px;fill:rgb(72,67,67);">P<tspan x="352.427px 395.145px 437.863px 480.581px 523.299px 566.017px 608.734px 651.452px 694.17px 736.888px 779.606px 822.324px " y="562px 562px 562px 562px 562px 562px 562px 562px 562px 562px 562px 562px ">RØV NU IDAG!</tspan></text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

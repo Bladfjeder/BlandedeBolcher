@@ -28,3 +28,10 @@ Opdatering af indhold på opskrifter.html & om_os.html.
 Implementering af JavaScript. 
 Opdatering af css i hht. overstående. 
 _________________________
+
+20/6 - 2023
+Forfatter: Maiken
+
+Opdatering af siden opskrifter.html i hht. prototype v.2 - forbedringer inkludere bl.a. flere billeder, mere genkendelse af hvem hjemmesiden ejes af, flere kontaktoplysninger i footer, samt en forbedret ux writing. 
+_________________________
+
