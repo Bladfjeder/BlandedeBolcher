@@ -104,6 +104,11 @@ a{
 
 /*main indhold */
 
+main {
+    width: 80%;
+    margin-left: 10%;
+} 
+
 section {
     margin: auto;
     padding: 2%;
@@ -204,6 +209,20 @@ input{
     margin-right: auto;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .float-right{
+    float: right;
+  }
+
+  .float-center{
+    float: center;
+  }
 /*footer */
 
 footer {
@@ -219,5 +238,42 @@ footer p {
 /*Her laver vi indstillinger for det responsive design.*/
 
 @media (max-width: 700px) {
+    main {
+        width: 90%;
+        margin-left: 5%;
+    } 
            
 }
+
+/* blog style */
+
+.blog-head-wrapper{
+    display:flex
+}
+
+.blog-overskrift-headers{
+    min-width: 55%;
+
+}
+
+.vegetable-image{
+    width: 38%;
+}
+
+.overskrift{
+    margin: 10%;
+}
+
+.lilla{
+width: 50%;
+background-color: #A972F4;
+border: 0 none;
+color: #A972F4;
+height: 6px;
+margin: auto;
+}
+
+.extended-content{
+    display: none;
+}
+
