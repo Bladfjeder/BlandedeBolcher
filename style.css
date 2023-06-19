@@ -273,3 +273,7 @@ height: 6px;
 margin: auto;
 }
 
+.extended-content{
+    display: none;
+}
+
