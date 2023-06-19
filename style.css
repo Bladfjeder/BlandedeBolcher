@@ -109,20 +109,6 @@ section {
     padding: 2%;
 }
 
-img{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.banner{
-    display: block;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 1rem;
-}
-
 h1 {
     font-family: "fira_mono_bold";
     font-size: 20px;
@@ -218,10 +204,7 @@ input{
     margin-right: auto;
 }
 
-#anbefalingsliste{
-    text-decoration:underline;
-    
-}
+
 
 /*footer */
 
@@ -240,3 +223,39 @@ footer p {
 @media (max-width: 700px) {
            
 }
+
+/*Opskrift styling*/
+
+#anbefalingsliste{
+    text-decoration:underline;
+    
+}
+
+.lilla{
+    border-top: 5px solid var(--detaljefarve);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;    
+}
+
+img{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner{
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+}
+
+.bog_billeder{
+    display: inline-block;
+    width: 30%;
+}
+

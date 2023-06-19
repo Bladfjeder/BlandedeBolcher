@@ -14,7 +14,7 @@
     <!--Meta beskrivelse for at optimere hjemmesidens SEO-->
     <meta name="description" content="Opskrifterne her på siden er et uddrag af alle de bedste retter, som jeg har publiceret i mine bøger, samt nogle der kun kan findes, her på siden. Der bliver løbende tilføjet flere opskrifter, hold øje på siden Nyheder. | Camilla Plum - Fuglebjerggaard">
     <!--Link til CSS - Styling af hjemmesiden -->
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="/style.css">
     <!--Link til favicon - Ikonet på browser tab-->
     <link rel="shortcut icon" href="/img/favicon/favicon.ico" type="image/x-icon">
     <title>Camilla Plum - Opskrifter</title>
@@ -26,7 +26,7 @@
                 <li><a href="/paths/blog.html">Blog</a></li>
                 <li><a href="/paths/shop.html">Shop</a></li>
                 <li>
-                    <a href="../index.html">
+                    <a href="/index.html">
                         <img id="logo" src="/img/Logo_Plum_P_Farve.svg" alt="Officielt logo. mørk farvet CP bogstaver, med grønne blade."/>
                     </a>
                 </li>
@@ -37,50 +37,56 @@
         <img id="header_hylde" src="/img/træ_1.svg" alt="Dekorativ træhylde der opdeler navigationsbaren fra hovedindholdet.">
         <nav class="subNav nav-links">
             <ul>
-                <li><a href="/paths/opskrifter.html"><b>Anbefalinger</b></a></li>
-                <li><a href="/paths/subpaths_opskrifter/bøger.html">Bøger</a></li>
-                <li><a href="#">Alle Opskrifter</a></li>
+                <li><a href="/paths/opskrifter.html">Anbefalinger</a></li>
+                <li><a href="/paths/subpaths_opskrifter/bøger.html"><b>Bøger</b></a></li>
+                <li><a href="/paths/subpaths_opskrifter/alle_opskrifter.html">Alle Opskrifter</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <img class="billeder" src="/img/plum/camilla_madside.webp" alt="Camilla plum der står i sit køkken, med en gammeldags grydesi over skulderen.">
-        <section class="anbefalinger">
-            <h1>Her finder du alle de bedste opskrifter fra nogle af alle mine kogebøger</h1>
+        <section class="bøger">
+            <h1>Bøger af Camilla Plum</h1>
             <p>
-                Jeg er begejstret for at præsentere en samling af opskrifter fra mine kogebøger, som er fyldt med kærlighed til gode råvarer og autentisk madlavning.
+                Alle mine bøger kan du både finde online i shoppen, men du kan også finde dem fysisk i mine to butikker. Hvis du er heldig at fange mig på en god dag, kan jeg tilmed signerer din bog! 
             </p>
             <p>
-                I mine kogebøger har jeg stræbt efter at dele ikke blot opskrifter, men også min passion for bæredygtighed, økologi og lokal produktion. Jeg tror på, at maden vi spiser, kan forvandle vores hverdag til noget ekstraordinært og berige vores liv på utallige måder.
+                Jeg sælger i begrænsede mængder, så du skal være hurtig, da jeg ikke får nye på lager når jeg har solgt ud. Måske du er heldig at kunne finde mine bøger i genbrug eller antik forretninger. 
+
             </p>
-            <p>
-               Jeg håber, at du vil finde inspiration og glæde ved at udforske mine opskrifter, der omfavner sæsonens friskhed og mangfoldigheden i vores lokale råvarer. Fra smagfulde grøntsagsretter og lækre kødretter til fortryllende desserter og bagværk - mine opskrifter er skabt med omhu og en dybfølt kærlighed til madlavningens kunst. 
-            </p>
-            <p>
-               Jeg ønsker dig en kulinarisk rejse fyldt med smagsoplevelser og fornøjelse. Tag et kig rundt på siden, lad dig inspirere og prøv dig frem i køkkenet med de lækre opskrifter. Jeg håber, at du vil finde glæde og tilfredsstillelse i at tilberede og nyde disse retter sammen med dine kære. 
-            </p>
-            <p>
-               Tak for at besøge min side og for at være en del af denne madelskers fællesskab. Jeg ser frem til at dele flere opskrifter, tips og historier med dig i fremtiden. Du kan blandt andet få de seneste nyheder via mit nyhedsbrev, som du kan tilmelde dig til lige her! 
-            </p>
+            <img class="logo_plum" src="/img/Logo_Plum_full.svg" alt="Logo af PLUM bogstaver, med blade designet som en signatur fra Camilla Plum.">
+            <div class="lilla"></div>
         </section>
-        <form>
-            <label for="fnavn"><b> Indtast Navn:</b></label> <br>
-            <input type="text" name="fnavn" id="fnavn"> <br>
-            <label for="femail"><b>Indtast Email:</b></label> <br>
-            <input type="email" name="femail" id="femail"> <br> 
-            <button class="tilmeld_knap">Tilmeld!</button>
-        </form>
-        <img src="/img/plum/camilla_solsikke.webp" alt="Camilla Plum i nærskud, kigger mod venstre hvor der er toppen af en solsikke.">
-        <section>
-            <h2>
-                Jeg anbefaler selvfølgelig alle mine lækre opskrifter, men hvis jeg SKULLE vælge nogle, skal du prøve disse:
-            </h2>
-            <ul class="liste" id="anbefalingsliste">
-                <li class="liste_punkt"><a href=""> Risotto med asparges & citron</a></li>
-                <li class="liste_punkt"><a href="">Henkogte tomater</a></li>
-                <li class="liste_punkt"><a href="">Hindbærsnitter</a></li>
-            </ul>
-            <img class="banner" src="/img/CTA/banner_prøv_idag.svg" alt="Gult banner med teksten 'prøv idag!'.">
+        <section class="bog_display">
+            <h2>SYLT!</h2>
+            <p>
+                Hver sensommer og efterår bugner drivhuse og haver af alt for mange chili og tomater på én gang, her er min bog om vidunderlige måder at få dem til at holde sig på, til trangere og mørkere tider. Og nogle fine retter du kan lave med dine hjemmesyltede sager.
+            </p>
+            <img class="bog_billeder" src="/img/plum_bøger/sylt.jpg" alt="Et billede af boget Sylt, af Camilla Plum.">
+            <button class="køb_knap">Køb her!</button>
+        </section>
+        <section class="bog_display">
+            <h2>Mors Mad: Sommer</h2>
+            <p>
+                En bog om sommerglæder og sommermad, krydderurter, tomater, om at fiske, sanke, plukke. Nye kartofler, sommermad, om at sylte, om kombucha og kefir, bær og hyldeblomster, mm. Camillas børn Asta og Niels har også leveret et par kapitler til bogen, om deres særlige kompetencer.
+            </p>
+            <img class="bog_billeder" src="/img/plum_bøger/sommer.jpg" alt="Et billede af boget Mors mad: Sommer, af Camilla Plum.">
+            <button class="køb_knap">Køb her!</button>
+        </section>
+        <section class="bog_display">
+            <h2>Sødt & Desserter</h2>
+            <p>
+                Ny udgave af Camillas hyldest til alverdens søde desserter, frugter og bær, kager og is. En stor samling af desserter. Illustreret med mange fotos.
+            </p>
+            <img class="bog_billeder" src="/img/plum_bøger/sødt.jpg" alt="Et billede af boget Sødt & Desserter, af Camilla Plum.">
+            <button class="køb_knap">Køb her!</button>
+        </section>
+        <section class="bog_display">
+            <h2>Ælle Bælle Frikardelle</h2>
+            <p>
+                Helt ny og gennemrevideret 3. udgave af den populære bog fra 1997, der har placeret sig som en klassiker med stadig appel til nye generationer af forældre.
+            </p>
+            <img class="bog_billeder" src="/img/plum_bøger/frikardelle.jpg" alt="Et billede af boget Ælle Bælle Frikardelle, af Camilla Plum.">
+            <button class="køb_knap">Køb her!</button>
         </section>
     </main>
     <img id="footer_hylde" src="/img/træ_3.svg" alt="Dekorativ træhylde, som deler hovedindholdet fra bunden af hjemmesiden.">
