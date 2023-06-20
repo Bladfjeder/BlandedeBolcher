@@ -35,7 +35,6 @@ function toggleTekst(id) { //funktionen bruger id af den gemte tekst
 
     } else { //else 
         target.style.display = 'none' ///  skjuler tekst 
-       
 
     }
 }
