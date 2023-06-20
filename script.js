@@ -29,8 +29,10 @@ function toggleTekst(id) { //funktionen bruger id af den gemte tekst
     let target = document.getElementById(id)///her sætter man target 
      //denne "condition" bestemmer hvis teksten er synlig ,
 
+
     if (target.style.display == 'none' || target.style.display == '') { //check hvis target text ikke har attribue display  . 
         target.style.display = 'inline' // viser tekst
+
     } else { //else 
         target.style.display = 'none' ///  skjuler tekst 
 

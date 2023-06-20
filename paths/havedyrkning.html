@@ -42,12 +42,10 @@
             alt="Dekorativ træhylde der opdeler navigationsbaren fra hovedindholdet.">
         <nav class="subNav nav-links">
             <ul>
-                <li><a href="#">Alle</a></li>
                 <li><a href="../paths/blog.html">Alle</a></li>
                 <li><a href="../paths/havedyrkning.html"><b>Havedyrkning</b></a></li>
-                <li><a href="#">Madartikler</a></li>
-                <li><a href="../paths/madartikler.html"</a>Madartikler</li>
-                <li><a href="#">Nyhedsbrev</a></li>
+                <li><a href="../paths/madartikler.html"></a>Madartikler</li>
+                
             </ul>
         </nav>
     </header>
@@ -68,14 +66,25 @@
                         class="float-right">
                 </div>
             </div>
-            <p>
-                Er et smukt lille træ- stor busk, fuldstændig hårdført, med blade som tydeligt siger ærteplante, og
-                gule blomster der ligner Guldregn, men kan spises, Bagefter kommmer der ærter som også kan spises.
-                Som unge er det hele bælgen, ellers som tørrede ærter,Det er ret nyt herhjemme, men fortjener virkelig
-                at
-                blive plantet mere, vi har både planter og frø.
-            </p>
-            <button>Læs mere</button>
+            <div class="wrapper">
+                <div class="toggle-container">
+                    <p class="content">
+
+                        Er et smukt lille træ- stor busk, fuldstændig hårdført, med blade som tydeligt siger ærteplante,
+                        og
+                        gule blomster der ligner Guldregn, men kan spises, <span class="extended-content"
+                            id="test-æbletræ2">Bagefter kommmer der ærter som også kan spises.
+                            Som unge er det hele bælgen, ellers som tørrede ærter,Det er ret nyt herhjemme, men
+                            fortjener virkelig
+                            at
+                            blive plantet mere, vi har både planter og frø.</span>
+                    </p>
+                    <button onclick="toggleTekst('test-æbletræ2')" >Læs mere</button>
+
+
+
+                </div>
+            </div>
         </section>
 
         <section class="opslag_have">
@@ -89,15 +98,36 @@
                 </div>
             </div>
             <p class="content">
-                Selleri smager som ingen anden grøntsag, stærkt, vedvarende, gennemtrængende. Selleri er vidunderligt,
+                Selleri smager som ingen anden grøntsag, stærkt, vedvarende, gennemtrængende.<br>
+                Selleri er vidunderligt,
                 hvis man ellers kan lide mad, der smager af noget. Men lige så mange mener, at madvarer ikke må være
-                netop personlige og karakterfulde. 
-                <span class="extended-content" id="test-1"> extended text...
-                Det handler om, hvad man er flasket op på. Er man blevet udfordret
-                som barn, eller har man fået...</span>
+                netop personlige og karakterfulde.<br>
+                <span class="extended-content" id="selleri-1">
+                    Det handler om, hvad man er flasket op på. Er man blevet udfordret som barn, eller har man fået det
+                    man umiddelbart kunne lide.<br>
+                    Det er i hvert fald en øvelse, der bærer lønnen i sig selv.<br> For at blive i musikken svarer det
+                    til at udvide sin musiksmag
+                    fra John Denver og Carl Nielsen til at kunne sætte pris på Stravinsky og Tom Waits<br>
+                    At dyrke selleri er ikke noget, man behøver at plante hele haven til med. En enkelt lille grøn
+                    bakke, eller to af hver,
+                    med udplantningsplanter er rigeligt til sommerbrug.<br>
+                    Både knold- og blegselleri skal forkultiveres allerede fra februar for at nå at udvikle sig her i
+                    landet.
+                    Det er i princippet enkelt nok, Men i realiteten er det nogle sarte størrelser.<br> Små
+                    selleriplanter skal have mindst stuetemperatur for at gro, de må ikke få
+                    temperaturudsving, og de skal prikles og pottes om en del gange, fordi de er så grådige.<br> Vi
+                    køber nogen gange vores som småplanter, fra en gartner,
+                    der har opvarmede drivhuse og styr på det. Problemet er, at selleriplanter, der har fået kuldechok
+                    som små, tilsyneladende ser godt ud, men når man planter dem ud,
+                    går de i blomst, fordi kulden har fået dem til at bilde sig ind, at de har været gennem en
+                    vinter.<br>
+                    Man skal altså også være varsom med at hærde dem af, når de kommer hjem, Hellere ud og ind et par
+                    dage mere, og så skal de ikke plantes ud før tidligst midten af maj. Vel ude skal der vandes en hel
+                    del. Hvis de får vandmangel, går de i stå og bliver træede og vattede indeni.
+                </span>
             </p>
-            <button onclick="toggleTekst('test-1')" id ="djs">Læs mere</button>
-           
+            <button onclick="toggleTekst('selleri-1')">Læs mere</button>
+
         </section>
         <section class="opslag_have">
             <div class="blog-head-wrapper">
@@ -106,30 +136,95 @@
                     <h2>14 April 2023 - Havedyrkning</h2>
                 </div>
                 <div class="vegetable-image">
-                    <img src="../img/selleri.png" alt=" blomsterform med selleri indeni" class="float-right">
+                    <img src="../img/porrer.png" alt=" blomsterform med porrer indeni" class="float-right">
                 </div>
             </div>
-            <p>
-                Er gamle sorter vinterporrer med et livsforløb der går som følger; Første år laver de porrer, dem kan
+            <p class="content">
+                Er gamle sorter vinterporrer med et livsforløb der går som følger;<br> Første år laver de porrer, dem
+                kan
                 man spise
                 nogen af, andet år går de i blomst, med de smukkeste, kæmpestore hvide eller lilla bolde på 1 m lange
-                stængler.
-                De er fulde af frø som du kan samle og så flere porre. Tredje år deler det løg som har dannet sig nede i
-                jorden i
-                en klynge små fine potteplanter,,,
+                stængler.<br>
+                <span class="extended-content" id="porrer-1">
+
+                    De er fulde af frø som du kan samle og så flere porre. Tredje år deler det løg som har dannet sig
+                    nede i
+                    jorden i en klynge små fine potteplanter.
+                    Dem kan du enten lade være og så så får du en klynge porer hvor de står, som du kan hive op lidt ad
+                    gangen.<br>
+                    De er tyndere end porre som vokser hver for sig, men der er mange fa dem,<br> De vil så gennemgå
+                    det same livsforløb så du har porrer i al evighed. eller du kan grave hele balladen op og dele den,
+                    plante den ud på rækker og få porrer til at spises eller flere klatter med flerårige porrer.<br>
+                    Man kan også relativt nemt så dem selv, direkte på friland, men det er ret vanskeligt at holde dem
+                    rene.
+                    Så dem hellere i bakker indendørs fra midt i mart til slut i april.<br> Så hellere lidt for tyndt,
+                    så kan de stå længere i bakken.
+                    De skal have over 20 grader for at spire. Så snart de er spiret flyttes de til et køligt, lyst sted.
+                    Midt i Maj planter man ud, med 8 cm mellem de små plante. der skal hærdes meget grundigt af,
+                    ved at blive flytte ud i dagtimerne, dækket med fiberdug, og ind igen før det bliver køligt.<br>
+                    Hvis det er for koldt når de kommer ud, eller de får et chok efter en lidt sjusket afhærdning
+                    løber en del af dem i stok første år og bliver uspiselige.<br>
+                    De tror simpelthen enden er nær og
+                    skynder sig at blomstre for at sikre slægtens beståen.<br>
+                    Udplantning har heller ingen hast, de har masser af tid at vokse i.<br> Mange venter med at plante
+                    ud hvor de tidligste kartofler eller spinat har stået.
+                    Det hvide er det lækreste, og man kan få det længere ved at mulde op og blege dem med jord.<br>
+                    Plant dem ud i en 20 cm dyb grøft fra starten af, og fyld gradvist jord på efterhånden som de
+                    vokser. Til sidst skal de stå i en lang jordvold, som man graver op mellem rækkerne.<br> Det ser
+                    smukt ud,
+                    og tvinger simpelthen planten i vejret samtidig med at en større del af skaftet bliver hvidt. Men
+                    selvom man ikke får det gjort skal man nok få porrer alligevel, det hører til i skønvirkeaf­delingen
+                    at more sig med sådan noget.<br>
+                    Man skal ikke være bekymret over at der kommer jord i porrerne ved at mulde dem op, det komemr der
+                    alligevel, solid rensning undgår man ikke.<br>
+                    Det er en god fidus at klippe ca halvdelen af både rødder og det grønne af ved plantningen.<br> De
+                    kommer hurtigere igang hvis de ikke skal holde liv i det øverste, samtidig med at de skal danne
+                    rødder. Man skal ikke fortvivle, de står i lang tid og ligner små løgnåle, men pludselig tager
+                    fanden ved dem, og det er der man skal være der med gødningen.<br>
+                    Porren er en grovæder, som i hele sin levetid skal have solide mængder kvælstofholdig gødning for at
+                    blive til det man forventer af dem.<br>
+                    Det allerbedste er at gå en rituel morgentissetur ud i porrebedet.
+                    Hvis man af én eller anden grund ikke vil dét, og ikke har adgang til anden kvælstofrig gødning, som
+                    hønse eller kaninmøg, bliver der nok porrer, men nogle tynde bængler ud af det.<br>
+                    Almindelig havekompost kan ikke gøre det. Det med tisset er nu nok værd at overveje en gang mere.
+                    Det har et meget dårligt ry, og det er helt urimeligt. Mennesketis er et fuldstændigt sterilt
+                    produkt, med en meget høj næringsværdi, også til kål.
+
+
+                </span>
             </p>
-            <button>Læs mere</button>
+            <button onclick="toggleTekst('porrer-1')">Læs mere</button>
         </section>
 
         <section class="opslag_have">
             <h1>Dyrkningsvejledning Lathyrus.</h1>
             <h2>14 April 2023 - Havedyrkning</h2>
-            <p>
-                er ikke det nemmeste at dyrke, men noget af det dejligste. Der er ret lang inkubationstid på dem, men
+            <p class="content">
+
+                er ikke det nemmeste at dyrke, men noget af det dejligste.<br>
+                Der er ret lang inkubationstid på dem, men
                 lige pludselig er de der, og så kan man plukke løs i månedsvis. Og i øvrigt skal man huske faktisk at
-                plukke alle sine latyrus, hvis man vil have dem til at blive ved med at...
+                plukke alle sine latyrus, hvis man vil have dem til at blive ved med at blomstre.<br>
+                Så snart den får lov at udvikle bælge stopper blomstringen. Man kan lade et par af
+                sine planter gå i frø så man har frø til næste år.<br> Man skal ikke bare vente til allersidst, så er
+                det
+                ikke sikkert frøene når at modne.<br> <span class="extended-content" id="lathyrus-1">
+                    Det er de først når bælgen er helt lysebrun og tør. De vil så blive
+                    en blanding af de latyrus man har, men altid dejlige.<br>
+                    Latyrus skal forkultiveres,i små potter, et lunt sted, f.eks drivhus fra midt i april.<br> Man kan
+                    også
+                    så dem indendørs i vindueskarmen i begyndelsen af april. Så dem i pottemuld, og hold dem fugtige
+                    , men ikke våde.<br> Man kan dække med over med plasticposer, for at holde på fugten, lav nogle
+                    huler
+                    posen. Men husk at lufte ud en gang imellem, så de ikke rådner. Det er klogt at slibe frøene en
+                    smule på den en side med en karborundum sten eller fint sandpapir, så der akkurat går hul på
+                    skallen.<br>
+                    Den kan være så hård at spiren ikke kan trænge igennem, derefter lægger man dem i koldt kamillethe i
+                    24 timer, før man sår dem. Det fremskynder spiringen med en uges tid.
+                </span>
             </p>
-            <button>Læs mere</button>
+            <button onclick="toggleTekst('lathyrus-1')">Læs mere</button>
+
         </section>
 
         <section class="opslag_have">
@@ -143,13 +238,32 @@
                 </div>
 
             </div>
-            <p>
-                Sommerblomsterne, de frækkerter, vores redning når der skal kulør på haven i juli , august og september.
-                Uforpligtende og nemme, muntre og umiddelbart glædesgivende. Man kan gøre det til noget helt særligt med
+            <p class="content">
+
+                Sommerblomsterne, de frækkerter, vores redning når der skal kulør på haven i juli , august og september.<br>
+                Uforpligtende og nemme, muntre og umiddelbart glædesgivende.<br> Man kan gøre det til noget helt særligt med
                 sommerblomster, en kunstform, eller man kan lade dem sprede deres kulørthed over den bare jord uden
-                andre bagtanker end frodighed. Man kan...
+                andre bagtanker end frodighed.<br> Man kan overgive sig til sommerblomsternes utrolige farverigdom og bare
+                så dem vildt og inderligt imellem hinanden, og man kan<span class="extended-content"
+                    id="sommerblomster-1"> tematisere, lave hvide, blå, nordiske lyse farver,
+                    flammende røde og orange bede, lilla, pink og røde.<br>
+                    Sommerblomsterne kan bruges på utallige måder i haven, jeg har dem mest i rækker i køkkenhaven til
+                    at plukke af
+                    men de bliver også plante ind i bedene i dufthaven, og de mest velegnede som Ipomoea, cobea og
+                    Convolvulus
+                    kommer i potter.<br>
+                    Hvis ens staudebede ikke er for overfyldte, eller nyplantede er sommerblomster redningen de første
+                    år.<br>
+                    De små pjevsede stauder, den minimale lavendelhæk, og de bittesmå roser ser mere ud som om det er
+                    med vilje
+                    når der står svajende valmuer, og cosmos bagved, frodige floder og marker, søer og landskaber af
+                    sommerblomster,
+                    end bar ørken imellem dem.
+                </span>
             </p>
-            <button>Læs mere</button>
+            <button onclick="toggleTekst('sommerblomster-1')">Læs mere</button>
+
+
         </section>
         <section class="opslag-have">
             <div class="blog-head-wrapper">
@@ -158,13 +272,34 @@
                     <h2> 23 Februar 2023 - Havedyrkning</h2>
                 </div>
             </div>
-            <p>
+            <p class="content">
                 er tidens trend, og det forstår jeg så udemærket, for der er noget uendeligt betryggende ved at vide at
-                derude et sted på mi jord, der står noget og vokser, som kan spises og bare bliver ved og ved. Jeg tror ikke
-                vi er så langt fra trangen til at sikre os den simple overlevelse..
-            
+                derude et sted på min jord, der står noget og vokser, som kan spises og bare bliver ved og ved.<br> Jeg tror
+                ikke vi er så langt fra trangen til at sikre os den simple overlevelse. selv efter mange flæskefede år med
+                sikkerhedsnet i alle ender og kanter, så er de basale menneskelige behov for overlevelse stadig
+                instinktivt fremme hos os,
+                Lad os håbe de aldrig går væk.<br> Mad, drikke, varme, tryghed, kærlighed., og mad som man kan regne med, er
+                tryghed.<br>
+                <span class="extended-content" id="flerårige grøntsager-1">
+                    Jeg har jo stor køkkenhave, og har mange flerårige ting i rækker, men hvis man har mindre plads så
+                    er ideen om et
+                    spiseligt staudebed virkelig god. Man kan blande det hele, De deciderede flerårige grøntsager,
+                    spiselige buske i bagrunden,
+                    , rabarber, Kål, porrer, hvidløg, asparges sibirisk ærtetræ blæresmælder, Takkelap, flerårige
+                    porrer, artiskokker og
+                    vilde artiskokker,<br> Forskellige flerårige syrer,, flerårige krydderurter, og alle de spiselige
+                    stauder med spiselige
+                    blomster som Geranier lægestokroser, silkeplanter Campanula, Allium, , salvier, dagliljer, Agastache
+                    , , og stauder
+                    med spiselige blade som lungeurt og Sankt hansurt,, Hosta, løg, , ,<br> Man kan kombinere på 1000 måder,
+                    og man vil få
+                    det smukkeste bed ,<br>Komponere om som tiden går og planterne vokser til, man kan lave det i særlige
+                    farver, præcis som
+                    andre staudebede, men selvfølgelig skal man også holde det fint.
+                </span>
             </p>
-            <button>Læs mere</button>
+            <button onclick="toggleTekst('flerårige grøntsager-1')">Læs mere</button>
+
         </section>
         <h2 class="indlæs"><a href="#"> indlæs flere</a></h2>
     </main>
@@ -183,7 +318,6 @@
             11-17
         </p>
     </footer>
-    <script src="script.js"></script>
     <script src="../script.js"></script>
 </body>
 
