@@ -277,3 +277,11 @@ margin: auto;
     display: none;
 }
 
+.subNav{
+    display: inline !important;
+}
+
+.text-center{
+ text-align: center;
+}
+
