@@ -4,284 +4,328 @@
 
 /*Her har vi deklareret vores farveskema.*/
 
-:root{
-    --baggrund: #FFFDE7;
-    --tekstfarve: #272932;
-    --knapfarve: #F4D06F;
-    --detaljefarve: #A972F4;
-    --logofarve: #5E874F;
+:root {
+  --baggrund: #fffde7;
+  --tekstfarve: #272932;
+  --knapfarve: #f4d06f;
+  --detaljefarve: #a972f4;
+  --logofarve: #5e874f;
 }
 
-  /*Her deklarere vi hvilke skrifttyper vi bruger igennem hjemmesiden*/
-  
-@font-face {
-    font-family: "fira_mono_bold";
-    src: url(/fonts/Fira_Mono/FiraMono-Bold.ttf);
-}
+/*Her deklarere vi hvilke skrifttyper vi bruger igennem hjemmesiden*/
 
 @font-face {
-    font-family: "fira_mono_regular";
-    src: url(/fonts/Fira_Mono/FiraMono-Regular.ttf);
+  font-family: "fira_mono_bold";
+  src: url(/fonts/Fira_Mono/FiraMono-Bold.ttf);
 }
 
 @font-face {
-    font-family: "fira_sans_bold";
-    src: url(/fonts/Fira_Sans/FiraSans-Bold.ttf);
- }
+  font-family: "fira_mono_regular";
+  src: url(/fonts/Fira_Mono/FiraMono-Regular.ttf);
+}
 
 @font-face {
-    font-family: "fira_sans_regular";
-    src: url(/fonts/Fira_Sans/FiraSans-Regular.ttf);
+  font-family: "fira_sans_bold";
+  src: url(/fonts/Fira_Sans/FiraSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: "fira_sans_regular";
+  src: url(/fonts/Fira_Sans/FiraSans-Regular.ttf);
 }
 
 /*Her nulstiller vi et par "default" browser indstillinger og laver nogle basale designvalg*/
 
-*{
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
-    font-family: "fira_sans_regular", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "fira_sans_regular", sans-serif;
 }
-  
-  body{
-    background-color: var(--baggrund);
-    color: var(--tekstfarve);
-    text-align: left;  
+
+body {
+  background-color: var(--baggrund);
+  color: var(--tekstfarve);
+  text-align: left;
 }
 
 /*Header & Navigering*/
-  
+
 header {
-    min-height: 3,4375rem;
-    width: 100%;  
-    border-radius: 5px;
-    background-color: var(--baggrund);
-    position: sticky;
-    top: 0;
-}
-  
-nav {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-}
-  
-nav img {
-      width: 33px;  
-}
-  
-.nav-links ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
-}
-  
-.nav-links ul li a {
-    text-decoration: none;
-    font-size: 13px;
+  min-height: 3, 4375rem;
+  width: 100%;
+  border-radius: 5px;
+  background-color: var(--baggrund);
+  position: sticky;
+  top: 0;
 }
 
-a{
-    text-decoration: none;
-    color: var(--tekstfarve);
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
 }
-  
+
+nav img {
+  width: 33px;
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+  font-size: 13px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--tekstfarve);
+}
+
 .nav-links ul li::after {
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: var(--detaljefarve);
-    display: block;
-    margin: auto;
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: var(--detaljefarve);
+  display: block;
+  margin: auto;
 }
-  
+
 .nav-links ul li:hover::after {
-    width: 100%;
-    transition: 0.5s;
+  width: 100%;
+  transition: 0.5s;
 }
 
 /*main indhold */
 
 main {
-    width: 80%;
-    margin-left: 10%;
-} 
+  width: 80%;
+  margin-left: 10%;
+}
 
 section {
-    margin: auto;
-    padding: 2%;
+  margin: auto;
+  padding: 2%;
 }
 
 h1 {
-    font-family: "fira_mono_bold";
-    font-size: 20px;
-    padding: 2%;
+  font-family: "fira_mono_bold";
+  font-size: 20px;
+  padding: 2%;
 }
 
-h2{
-    font-size: 18;
-    font-family: "fira_mono_bold";
-    padding: 2%;
+h2 {
+  font-size: 18;
+  font-family: "fira_mono_bold";
+  padding: 2%;
 }
 
 p {
-    margin: 10px 0 20px;
-    padding: 2%;
+  margin: 10px 0 20px;
+  padding: 2%;
 }
 
-.liste_punkt{
-    font-family: "fira_mono_regular";
+.liste_punkt {
+  font-family: "fira_mono_regular";
 }
 
-.liste{
-    list-style-type: circle;
-    text-align: left;
-    margin: 5%;
-    
+.liste {
+  list-style-type: circle;
+  text-align: left;
+  margin: 5%;
 }
 
-.logo_plum{
-    width: 115px;
-    display: block;
-    margin-left: auto;
-    margin-right: 10%;
+.logo_plum {
+  width: 115px;
+  display: block;
+  margin-left: auto;
+  margin-right: 10%;
 }
 
-button{
-    background-color: var(--knapfarve);
-    padding: 0.5rem;
-    border-radius: 5px;
-    border-color: var(--tekstfarve);
+button {
+  background-color: var(--knapfarve);
+  padding: 0.5rem;
+  border-radius: 5px;
+  border-color: var(--tekstfarve);
 }
 
-.tilmeld_knap{
-    margin-left: 70%;
-    margin-right: 20%;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+.tilmeld_knap {
+  margin-left: 70%;
+  margin-right: 20%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
-#topKnap{
-    grid-area: knap;
-    background-color: var(--knapfarve);
-    color: var(--tekstfarve);
-    font-size: 20px;
-    padding: 0.5em;
-    outline: none;
-    border: 0.1em solid var(--tekstfarve);
-    cursor: pointer;
-    z-index: 99;
-    bottom: 2em;
-    margin-left: auto;
-    margin-right: auto;
-    position: sticky;
-    display: none;
-    margin-top: 1em;
+#topKnap {
+  grid-area: knap;
+  background-color: var(--knapfarve);
+  color: var(--tekstfarve);
+  font-size: 20px;
+  padding: 0.5em;
+  outline: none;
+  border: 0.1em solid var(--tekstfarve);
+  cursor: pointer;
+  z-index: 99;
+  bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  position: sticky;
+  display: none;
+  margin-top: 1em;
 }
 
-.indlæs{
-    text-align: center;
+.indlæs {
+  text-align: center;
 }
 
-.træhylde{
+.træhylde {
   padding-bottom: 8%;
 }
 
-form{
-    width: 12rem;
-    margin-left: auto;
-    margin-right: auto;
+form {
+  width: 12rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-label{
-    margin-bottom: 5%;
+label {
+  margin-bottom: 5%;
 }
 
-input{
-    margin-bottom: 2%;
+input {
+  margin-bottom: 2%;
 }
 
-.billeder{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.billeder {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
-  .float-right{
-    float: right;
-  }
+.float-right {
+  float: right;
+}
 
-  .float-center{
-    float: center;
-  }
+.float-center {
+  float: center;
+}
 /*footer */
 
 footer {
-    text-align: center;
-    padding: 30px 0;
+  text-align: center;
+  padding: 30px 0;
 }
 
 footer p {
-    font-family: "fira_mono_regular";
+  font-family: "fira_mono_regular";
 }
- 
- 
+
 /*Her laver vi indstillinger for det responsive design.*/
 
 @media (max-width: 700px) {
-    main {
-        width: 90%;
-        margin-left: 5%;
-    } 
-           
+  main {
+    width: 90%;
+    margin-left: 5%;
+  }
 }
 
 /* blog style */
 
-.blog-head-wrapper{
-    display:flex
+.blog-head-wrapper {
+  display: flex;
 }
 
-.blog-overskrift-headers{
-    min-width: 55%;
-
+.blog-overskrift-headers {
+  min-width: 55%;
 }
 
-.vegetable-image{
-    width: 38%;
+.vegetable-image {
+  width: 38%;
 }
 
-.overskrift{
-    margin: 10%;
+.overskrift {
+  margin: 10%;
 }
 
-.lilla{
-width: 50%;
-background-color: #A972F4;
-border: 0 none;
-color: #A972F4;
-height: 6px;
-margin: auto;
+.lilla {
+  width: 50%;
+  background-color: #a972f4;
+  border: 0 none;
+  color: #a972f4;
+  height: 6px;
+  margin: auto;
 }
 
-.extended-content{
-    display: none;
+.extended-content {
+  display: none;
 }
 
-.subNav{
-    display: inline !important;
+.subNav {
+  display: inline !important;
 }
 
-.text-center{
- text-align: center;
+.text-center {
+  text-align: center;
 }
 
+/* boeger */
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
